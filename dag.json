@@ -1,0 +1,32 @@
+{
+    "nodes":[
+        {"name":"Glenn","team":"Maya"},
+        {"name":"Hanzie","team":"Maya"},
+        {"name":"Kamal","team":"Maya"},
+        {"name":"Sanjay","team":"Maya"},
+        {"name":"Chris","team":"Maya"},
+        {"name":"Jeff","team":"Maya"},
+        {"name":"Ian","team":"Maya"},
+        {"name":"Dan","team":"Maya"},
+        {"name":"Dennis","team":"Maya"}
+    ],
+    "links":[
+        {"source":"Glenn", "target":"Hanzie"},
+        {"source":"Glenn","target":"Kamal"},
+        {"source":"Glenn","target":"Sanjay"},
+        {"source":"Hanzie","target":"Kamal"},
+        {"source":"Kamal","target":"Sanjay"},
+        {"source":"Sanjay","target":"Chris"},
+        {"source":"Chris","target":"Jeff"},
+        {"source":"Jeff","target":"Ian"},
+        {"source":"Ian","target":"Dan"},
+        {"source":"Ian","target":"Chris"},
+        {"source":"Ian","target":"Jeff"},
+        {"source":"Dan","target":"Dennis"},
+        {"source":"Dan","target":"Kamal"},
+        {"source":"Dan","target":"Sanjay"},
+        {"source":"Dennis","target":"Glenn"},
+        {"source":"Dennis","target":"Hanzie"},
+        {"source":"Dennis","target":"Kamal"}
+    ]
+}
