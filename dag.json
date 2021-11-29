@@ -21,7 +21,7 @@
         {"source":"Account Gateway", "target":"Account"},
         {"source":"Account", "target":"Credit Application"},
         {"source":"Account", "target":"Relationship"},
-        {"source":"Credit Applcation", "target":"Account"},
+        {"source":"Credit Application", "target":"Account"},
         {"source":"Account", "target":"Journal"},
         {"source":"Account", "target":"Country Calendar"},
         {"source":"Account", "target":"Credit Application"},
