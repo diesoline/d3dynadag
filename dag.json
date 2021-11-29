@@ -27,7 +27,7 @@
         {"source":"Account", "target":"Credit Application"},
         {"source":"Account", "target":"Aging"},
         {"source":"Account", "target":"Financial Position"},
-        {"source":"Credit Applcation", "target":"Relationship"},
+        {"source":"Credit Application", "target":"Relationship"},
         {"source":"Relationship", "target":"Credit Application"},
         {"source":"Payment Device", "target":"Credit Application"},
         {"source":"Country Calendar", "target":"Billing"},
