@@ -1,0 +1,59 @@
+Example data :
+
+{
+	links : [
+			{"source": "Transaction Gateways", "target": "Account", "legend": "service"},
+			{"source": "Relationship", "target": "Account", "legend": "service"},
+			{"source": "Overlimit Fee", "target": "Account", "legend": "service"},
+			{"source": "Account Gateway", "target": "Account Holder", "legend": "event"},
+
+			{"source": "Account Holder", "target": "Account", "legend": "event"},
+			{"source": "Relationship", "target": "Account", "legend": "event"},
+			{"source": "Transaction Gateways", "target": "Record Journal Entry", "legend": "command"},
+			{"source": "Interest", "target": "Record Journal Entry", "legend": "command"},
+			{"source": "Overlimit Fee", "target": "Record Journal Entry", "legend": "command"},
+			{"source": "Account Holder", "target": "Account Gateway", "legend": "filekafka"},
+			{"source": "Globestar Account", "target": "Credit Application", "legend": "filekafka"}
+	]
+}
+
+
+
+'Service Call' (Button)
+
+Action = Onclick
+
+-- should only show data objects that only contains a 'legend' value of 'service';
+-- should not show data objects that does not contain a 'legend' value of 'service';
+-- data objects are represented by Nodes and Links;
+-- Links are shown in 'Red dashed lines';
+
+
+'Event' (Button)
+
+Action = Onclick
+
+-- should only show data objects that only contains a 'legend' value of 'event';
+-- should not show data objects that does not contain a 'legend' value of 'event';
+-- data objects are represented by Nodes and Links;
+-- Links are shown in 'Green lines';
+
+'Command' (Button)
+
+Action = Onclick
+
+-- should only show data objects that only contains a 'legend' value of 'command';
+-- should not show data objects that does not contain a 'legend' value of 'command';
+-- data objects are represented by Nodes and Links;
+-- Links are shown in 'Orange lines';
+
+
+'File / Kafka' (Button)
+
+Action = Onclick
+
+-- should only show data objects that only contains a 'legend' value of 'filekafka';
+-- should not show data objects that does not contain a 'legend' value of 'filekafka';
+-- data objects are represented by Nodes and Links;
+-- Links are shown in 'Blue lines';
+
