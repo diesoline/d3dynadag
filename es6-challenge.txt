@@ -1,0 +1,35 @@
+Data :
+
+[
+	{source: Dog, target: Bone, team: A},
+	{source: Cat, target: Mouse, team: A},
+	{source: Mouse, target: Cheese, team: A},
+	{source: Lion, target: Gazelle, team: B},
+	{source: Monkey, target: Banana, team: B},
+	{source: Cow, target: Grass, team: B},
+	{source: Snake, target: Eggs, team: C},
+	{source: Frog, target: Bugs, team: C},
+	{source: Eagle, target: Snake, team: C},
+]
+
+'Button One' 
+	-- Event = On Click
+	-- Must only show Object Data that contains 'Team' with 'A' value.
+	-- Must not show Object Data that does not contain 'Team' with 'A' value.
+
+'Button Two' 
+	-- Event = On Click
+	-- Must only show Object Data that contains 'Team' with 'B' value.
+	-- Must not show Object Data that does not contain 'Team' with 'B' value.
+
+'Button Three' 
+	-- Event = On Click
+	-- Must only show Object Data that contains 'Team' with 'C' value.
+	-- Must not show Object Data that does not contain 'Team' with 'C' value.
+
+
+Expected Results :
+
+For 'Button One'
+
+[ ]
